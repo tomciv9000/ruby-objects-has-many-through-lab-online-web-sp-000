@@ -20,7 +20,7 @@ class Genre
   end
 
   def artists
-    Songs.all.map do |song|
-      
+    songs.map do |song|
+      song.artist
   end
 end
