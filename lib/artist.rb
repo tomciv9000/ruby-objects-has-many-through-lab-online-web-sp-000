@@ -26,7 +26,7 @@ class Artist
   end
   
   def genres 
-    
+    Song.all.map
   
 
 end
